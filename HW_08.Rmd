@@ -11,9 +11,9 @@ output:
     theme: spacelab
 ---
 
-Name: Neha Choudhari
+Name: 
 
-Andrew ID:npc
+Andrew ID: 
 
 You must submit **your own** HW as a PDF file on Gradescope.
 
@@ -73,7 +73,7 @@ if ( require("devtools") == FALSE ) {
   library(devtools)
 }
 
-source_url("Enter the URL to dark_and_stormy.R here")
+#source_url("Enter the URL to dark_and_stormy.R here")
 ```
 
 ## Question 3
