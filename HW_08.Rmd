@@ -11,9 +11,9 @@ output:
     theme: spacelab
 ---
 
-Name: 
+Name: Neha Choudhari
 
-Andrew ID: 
+Andrew ID:npc
 
 You must submit **your own** HW as a PDF file on Gradescope.
 
@@ -58,7 +58,7 @@ knit_hooks$set(output = function(x, options) {
 
 Show us that you have a `GitHub` account. Create a repository on `GitHub` called "36-350". (Utilize the checklist in `Notes_8A`.) Then edit the code below so that we see the contents of `README.md`. To get the correct URL, do the following: go to your `GitHub` repo, click on `36-350` and then again on `README.md`, and click on the "Raw" button. Copy and paste the URL to the raw `README.md` file into the call to `readLines()` below.
 ```{r linewidth=80}
-#readLines("Enter the URL to README.md here")
+readLines("https://raw.githubusercontent.com/nehac101/36-350/main/README.md")
 ```
 
 ## Question 2
@@ -72,7 +72,8 @@ if ( require("devtools") == FALSE ) {
   install.packages("devtools",repos="https://cloud.r-project.org")
   library(devtools)
 }
-#source_url("Enter the URL to dark_and_stormy.R here")
+
+source_url("Enter the URL to dark_and_stormy.R here")
 ```
 
 ## Question 3
